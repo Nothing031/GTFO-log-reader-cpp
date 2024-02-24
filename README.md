@@ -7,5 +7,5 @@
 * idfc
 # if you got ban cuz using this program
 * i dont give a fuck
-* just dont use in public discord
+* just dont use in public gtfo discord
 * this is for speedrunners
