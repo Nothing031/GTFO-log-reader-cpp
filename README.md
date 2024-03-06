@@ -1,6 +1,6 @@
-# [Download](https://github.com/Nothing031/GTFO-log-reader/archive/refs/heads/main.zip)
+# [Download](https://github.com/Nothing031/GTFO-log-reader/releases/download/0.2.0/GTFO.Log.Reader.C++.exe)
 # is this virus?
-* [VirusTotal](https://www.virustotal.com/gui/file/46f5e1a2b06398c4bfc6f47d1b421a72e7e5a37f0dfba8d8cfc27703d448245a)
+* [VirusTotal](https://www.virustotal.com/gui/file/8a38a03e7a5a3b31693d74944bb4414b0c5cfdbcfa76c062694dde73bd2c2ad4)
 * im fucking retard
 * i dont know how to make virus
 * if you dont trust this shit
