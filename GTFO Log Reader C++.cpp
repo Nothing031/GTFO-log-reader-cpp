@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <iostream>
 #include <ShlObj.h>
 #include <Windows.h>
@@ -10,10 +9,13 @@ namespace fs = std::filesystem;
 int main(void)
 {
 	// get gtfo log folder path
-	char path[MAX_PATH];
-
-	SHGetFolderPathA(NULL, CSIDL_LOCAL_APPDATA | CSIDL_FLAG_CREATE, NULL, 0, path);
-	strcat_s(path, "Low\\10 Chambers Collective\\GTFO\\");
+	wchar_t* localAppData = nullptr;
+	SHGetKnownFolderPath(FOLDERID_LocalAppData, 0, NULL, &localAppData);
+	// wchar_t to string
+	std::wstring ws(localAppData);
+	std::string path(ws.begin(), ws.end());
+	CoTaskMemFree(localAppData);
+	path+= "Low\\10 Chambers Collective\\GTFO\\";
 
 	std::cout << "Press enter to stop refresh" << std::endl;
 	std::cout << "Start in 3 seconds" << std::endl;
